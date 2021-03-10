@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="GRID SAMPLE TEST" thread-count="2">
+<!--    <test name="GRID TEST WITH SERIAL EXECTION WITH BROWSER IE">-->
+<!--        <parameter name ="browser" value="IE"/>-->
+<!--        <classes>-->
+<!--            <class name ="selenide_grid.GridExample"/>-->
+<!--        </classes>-->
+<!--    </test>-->
+    <test name="GRID TEST WITH SERIAL EXECTION WITH BROWSER FF ">
+        <parameter name ="browser" value="firefox"/>
+        <classes>
+            <class name ="selenide_grid.GridExample"/>
+        </classes>
+    </test>
+</suite>

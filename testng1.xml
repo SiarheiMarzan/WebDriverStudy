@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <parameter name="browserName" value="chrome"></parameter>
+    <parameter name="width" value="516"></parameter>
+    <parameter name="height" value="672"></parameter>
+    <test verbose="2" preserve-order="true" name="D:/WORKCATALOG/webdriver/src/test/java/page_factory">
+        <classes>
+            <class name="page_factory.test.GoogleCalculatorTestPage">
+                <methods>
+                    <include name="signUp"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
+

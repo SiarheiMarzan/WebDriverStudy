@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="10" passed="10">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default Suite" duration-ms="72568" started-at="2021-01-04T18:58:03 MSK" finished-at="2021-01-04T18:59:15 MSK">
+    <groups>
+      <group name="valid">
+        <method signature="SelenideTest.automationTest3()[pri:2, instance:selenide_test.SelenideTest@c038203]" name="automationTest3" class="selenide_test.SelenideTest"/>
+        <method signature="SelenideTest.automationTest4()[pri:0, instance:selenide_test.SelenideTest@c038203]" name="automationTest4" class="selenide_test.SelenideTest"/>
+        <method signature="SelenideTest.automationTest5()[pri:0, instance:selenide_test.SelenideTest@c038203]" name="automationTest5" class="selenide_test.SelenideTest"/>
+      </group> <!-- valid -->
+      <group name="login">
+        <method signature="SelenideTest.test1()[pri:1, instance:selenide_test.SelenideTest@c038203]" name="test1" class="selenide_test.SelenideTest"/>
+        <method signature="SelenideTest.automationTest2()[pri:0, instance:selenide_test.SelenideTest@c038203]" name="automationTest2" class="selenide_test.SelenideTest"/>
+        <method signature="SelenideTest.automationTest3()[pri:2, instance:selenide_test.SelenideTest@c038203]" name="automationTest3" class="selenide_test.SelenideTest"/>
+        <method signature="SelenideTest.automationTest6()[pri:0, instance:selenide_test.SelenideTest@c038203]" name="automationTest6" class="selenide_test.SelenideTest"/>
+      </group> <!-- login -->
+    </groups>
+    <test name="hellowebdriver" duration-ms="72568" started-at="2021-01-04T18:58:03 MSK" finished-at="2021-01-04T18:59:15 MSK">
+      <class name="selenide_test.SelenideTest">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:selenide_test.SelenideTest@c038203]" name="beforeSuite" is-config="true" duration-ms="77" started-at="2021-01-04T18:58:03 MSK" finished-at="2021-01-04T18:58:03 MSK">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:selenide_test.SelenideTest@c038203]" name="beforeTest" is-config="true" duration-ms="13" started-at="2021-01-04T18:58:03 MSK" finished-at="2021-01-04T18:58:03 MSK">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:selenide_test.SelenideTest@c038203]" name="setup" is-config="true" duration-ms="15596" started-at="2021-01-04T18:58:03 MSK" finished-at="2021-01-04T18:58:18 MSK">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:selenide_test.SelenideTest@c038203]" name="setup" is-config="true" duration-ms="16186" started-at="2021-01-04T18:58:03 MSK" finished-at="2021-01-04T18:58:19 MSK">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="automationTest4()[pri:0, instance:selenide_test.SelenideTest@c038203]" name="automationTest4" duration-ms="7967" started-at="2021-01-04T18:58:18 MSK" finished-at="2021-01-04T18:58:26 MSK">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- automationTest4 -->
+        <test-method status="PASS" signature="automationTest4()[pri:0, instance:selenide_test.SelenideTest@c038203]" name="automationTest4" duration-ms="7718" started-at="2021-01-04T18:58:19 MSK" finished-at="2021-01-04T18:58:27 MSK">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- automationTest4 -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:selenide_test.SelenideTest@c038203]" name="setup" is-config="true" duration-ms="2189" started-at="2021-01-04T18:58:26 MSK" finished-at="2021-01-04T18:58:29 MSK">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="automationTest4()[pri:0, instance:selenide_test.SelenideTest@c038203]" name="automationTest4" duration-ms="4733" started-at="2021-01-04T18:58:29 MSK" finished-at="2021-01-04T18:58:33 MSK">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- automationTest4 -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:selenide_test.SelenideTest@c038203]" name="setup" is-config="true" duration-ms="11267" started-at="2021-01-04T18:58:33 MSK" finished-at="2021-01-04T18:58:45 MSK">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="automationTest5()[pri:0, instance:selenide_test.SelenideTest@c038203]" name="automationTest5" duration-ms="2997" started-at="2021-01-04T18:58:45 MSK" description="Make sure &#039;Images&#039; label is shown under &#039;Google&#039; logo" finished-at="2021-01-04T18:58:48 MSK">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- automationTest5 -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:selenide_test.SelenideTest@c038203]" name="setup" is-config="true" duration-ms="2400" started-at="2021-01-04T18:58:48 MSK" finished-at="2021-01-04T18:58:50 MSK">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="automationTest6()[pri:0, instance:selenide_test.SelenideTest@c038203]" name="automationTest6" duration-ms="2850" started-at="2021-01-04T18:58:50 MSK" finished-at="2021-01-04T18:58:53 MSK">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- automationTest6 -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:selenide_test.SelenideTest@c038203]" name="setup" is-config="true" duration-ms="1197" started-at="2021-01-04T18:58:53 MSK" finished-at="2021-01-04T18:58:54 MSK">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="automationTest7()[pri:0, instance:selenide_test.SelenideTest@c038203]" name="automationTest7" duration-ms="5916" started-at="2021-01-04T18:58:54 MSK" finished-at="2021-01-04T18:59:00 MSK">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- automationTest7 -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:selenide_test.SelenideTest@c038203]" name="setup" is-config="true" duration-ms="1598" started-at="2021-01-04T18:59:00 MSK" finished-at="2021-01-04T18:59:02 MSK">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="automationTest8()[pri:0, instance:selenide_test.SelenideTest@c038203]" name="automationTest8" duration-ms="349" started-at="2021-01-04T18:59:02 MSK" finished-at="2021-01-04T18:59:02 MSK">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- automationTest8 -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:selenide_test.SelenideTest@c038203]" name="setup" is-config="true" duration-ms="1299" started-at="2021-01-04T18:59:02 MSK" finished-at="2021-01-04T18:59:03 MSK">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="test1()[pri:1, instance:selenide_test.SelenideTest@c038203]" name="test1" duration-ms="3621" started-at="2021-01-04T18:59:03 MSK" finished-at="2021-01-04T18:59:07 MSK">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:selenide_test.SelenideTest@c038203]" name="setup" is-config="true" duration-ms="1025" started-at="2021-01-04T18:59:07 MSK" finished-at="2021-01-04T18:59:08 MSK">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="automationTest2()[pri:0, instance:selenide_test.SelenideTest@c038203]" name="automationTest2" duration-ms="3191" started-at="2021-01-04T18:59:08 MSK" depends-on-methods="selenide_test.SelenideTest.test1" finished-at="2021-01-04T18:59:11 MSK">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- automationTest2 -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:selenide_test.SelenideTest@c038203]" name="setup" is-config="true" duration-ms="916" started-at="2021-01-04T18:59:11 MSK" finished-at="2021-01-04T18:59:12 MSK">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="automationTest3()[pri:2, instance:selenide_test.SelenideTest@c038203]" name="automationTest3" duration-ms="3271" started-at="2021-01-04T18:59:12 MSK" finished-at="2021-01-04T18:59:15 MSK">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- automationTest3 -->
+      </class> <!-- selenide_test.SelenideTest -->
+    </test> <!-- hellowebdriver -->
+  </suite> <!-- Default Suite -->
+</testng-results>

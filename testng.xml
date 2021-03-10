@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="D:/WORKCATALOG/webdriver/src/test/java/page_factory">
+        <classes>
+            <class name="page_factory.test.GoogleCalculatorTestPage">
+                <methods>
+                    <include name="signUp"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
+
+<!--        <?xml version="1.0" encoding="UTF-8"?>-->
+<!--        <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">-->
+<!--<suite name="All Test Suite">-->
+<!--<test verbose="2" preserve-order="true" name="D:/WORKCATALOG/webdriver/src/test/java/page_factory">-->
+<!--    <classes>-->
+<!--        <class name="page_factory.test.GoogleCalculatorTestPage">-->
+<!--            <methods>-->
+<!--                <include name="signUp"/>-->
+<!--            </methods>-->
+<!--        </class>-->
+<!--    </classes>-->
+<!--</test>-->
+<!--</suite>-->
